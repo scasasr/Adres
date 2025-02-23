@@ -1,0 +1,401 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|c:\\users\\psf30\\source\\repos\\adresapi\\adresapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|solutionrelative:adresapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|c:\\users\\psf30\\source\\repos\\adresapi\\adresapi\\controllers\\adquisitionhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|solutionrelative:adresapi\\controllers\\adquisitionhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|c:\\users\\psf30\\source\\repos\\adresapi\\adresapi\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|solutionrelative:adresapi\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96368977-4D30-4AB1-BBF8-6DA41AB4197F}|Adres.Domain\\Adres.Domain.csproj|c:\\users\\psf30\\source\\repos\\adresapi\\adres.domain\\services\\adquisitionhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96368977-4D30-4AB1-BBF8-6DA41AB4197F}|Adres.Domain\\Adres.Domain.csproj|solutionrelative:adres.domain\\services\\adquisitionhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96368977-4D30-4AB1-BBF8-6DA41AB4197F}|Adres.Domain\\Adres.Domain.csproj|c:\\users\\psf30\\source\\repos\\adresapi\\adres.domain\\services\\iadquisitionhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96368977-4D30-4AB1-BBF8-6DA41AB4197F}|Adres.Domain\\Adres.Domain.csproj|solutionrelative:adres.domain\\services\\iadquisitionhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|c:\\users\\psf30\\source\\repos\\adresapi\\adresapi\\dto\\adquisitionhistoryinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|solutionrelative:adresapi\\dto\\adquisitionhistoryinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|c:\\users\\psf30\\source\\repos\\adresapi\\adresapi\\dto\\adquisitionhistoryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|solutionrelative:adresapi\\dto\\adquisitionhistoryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|c:\\users\\psf30\\source\\repos\\adresapi\\adresapi\\dto\\adquisitionhistoryupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|solutionrelative:adresapi\\dto\\adquisitionhistoryupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96368977-4D30-4AB1-BBF8-6DA41AB4197F}|Adres.Domain\\Adres.Domain.csproj|c:\\users\\psf30\\source\\repos\\adresapi\\adres.domain\\models\\adquisitionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96368977-4D30-4AB1-BBF8-6DA41AB4197F}|Adres.Domain\\Adres.Domain.csproj|solutionrelative:adres.domain\\models\\adquisitionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96368977-4D30-4AB1-BBF8-6DA41AB4197F}|Adres.Domain\\Adres.Domain.csproj|c:\\users\\psf30\\source\\repos\\adresapi\\adres.domain\\services\\assetservicetypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96368977-4D30-4AB1-BBF8-6DA41AB4197F}|Adres.Domain\\Adres.Domain.csproj|solutionrelative:adres.domain\\services\\assetservicetypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|c:\\users\\psf30\\source\\repos\\adresapi\\adresapi\\controllers\\assetservicetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|solutionrelative:adresapi\\controllers\\assetservicetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96368977-4D30-4AB1-BBF8-6DA41AB4197F}|Adres.Domain\\Adres.Domain.csproj|c:\\users\\psf30\\source\\repos\\adresapi\\adres.domain\\services\\iassetservicetypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96368977-4D30-4AB1-BBF8-6DA41AB4197F}|Adres.Domain\\Adres.Domain.csproj|solutionrelative:adres.domain\\services\\iassetservicetypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96368977-4D30-4AB1-BBF8-6DA41AB4197F}|Adres.Domain\\Adres.Domain.csproj|c:\\users\\psf30\\source\\repos\\adresapi\\adres.domain\\services\\adminunitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96368977-4D30-4AB1-BBF8-6DA41AB4197F}|Adres.Domain\\Adres.Domain.csproj|solutionrelative:adres.domain\\services\\adminunitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|c:\\users\\psf30\\source\\repos\\adresapi\\adresapi\\controllers\\providercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|solutionrelative:adresapi\\controllers\\providercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|c:\\users\\psf30\\source\\repos\\adresapi\\adresapi\\dto\\providerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|solutionrelative:adresapi\\dto\\providerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|c:\\users\\psf30\\source\\repos\\adresapi\\adresapi\\dto\\providerinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|solutionrelative:adresapi\\dto\\providerinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|c:\\users\\psf30\\source\\repos\\adresapi\\adresapi\\controllers\\adquisitioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|solutionrelative:adresapi\\controllers\\adquisitioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96368977-4D30-4AB1-BBF8-6DA41AB4197F}|Adres.Domain\\Adres.Domain.csproj|c:\\users\\psf30\\source\\repos\\adresapi\\adres.domain\\services\\iproviderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96368977-4D30-4AB1-BBF8-6DA41AB4197F}|Adres.Domain\\Adres.Domain.csproj|solutionrelative:adres.domain\\services\\iproviderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|c:\\users\\psf30\\source\\repos\\adresapi\\adresapi\\dto\\adquisitionupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2879AEA1-601F-4CC4-81AD-6349B90D5499}|AdresAPI\\AdresAPI.csproj|solutionrelative:adresapi\\dto\\adquisitionupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\Program.cs",
+              "RelativeDocumentMoniker": "AdresAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\Program.cs",
+              "RelativeToolTip": "AdresAPI\\Program.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAACkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T02:37:59.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdquisitionHistoryService.cs",
+              "DocumentMoniker": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\Adres.Domain\\Services\\AdquisitionHistoryService.cs",
+              "RelativeDocumentMoniker": "Adres.Domain\\Services\\AdquisitionHistoryService.cs",
+              "ToolTip": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\Adres.Domain\\Services\\AdquisitionHistoryService.cs",
+              "RelativeToolTip": "Adres.Domain\\Services\\AdquisitionHistoryService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAArwBkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T22:08:59.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAdquisitionHistoryService.cs",
+              "DocumentMoniker": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\Adres.Domain\\Services\\IAdquisitionHistoryService.cs",
+              "RelativeDocumentMoniker": "Adres.Domain\\Services\\IAdquisitionHistoryService.cs",
+              "ToolTip": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\Adres.Domain\\Services\\IAdquisitionHistoryService.cs",
+              "RelativeToolTip": "Adres.Domain\\Services\\IAdquisitionHistoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T22:08:44.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "AdresAPI\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "AdresAPI\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T21:45:57.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdquisitionHistoryController.cs",
+              "DocumentMoniker": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\Controllers\\AdquisitionHistoryController.cs",
+              "RelativeDocumentMoniker": "AdresAPI\\Controllers\\AdquisitionHistoryController.cs",
+              "ToolTip": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\Controllers\\AdquisitionHistoryController.cs",
+              "RelativeToolTip": "AdresAPI\\Controllers\\AdquisitionHistoryController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwEQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T20:40:30.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdquisitionHistoryInputDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\DTO\\AdquisitionHistoryInputDTO.cs",
+              "RelativeDocumentMoniker": "AdresAPI\\DTO\\AdquisitionHistoryInputDTO.cs",
+              "ToolTip": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\DTO\\AdquisitionHistoryInputDTO.cs",
+              "RelativeToolTip": "AdresAPI\\DTO\\AdquisitionHistoryInputDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T22:04:21.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdquisitionHistoryResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\DTO\\AdquisitionHistoryResponseDTO.cs",
+              "RelativeDocumentMoniker": "AdresAPI\\DTO\\AdquisitionHistoryResponseDTO.cs",
+              "ToolTip": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\DTO\\AdquisitionHistoryResponseDTO.cs",
+              "RelativeToolTip": "AdresAPI\\DTO\\AdquisitionHistoryResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T22:02:57.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdquisitionHistoryUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\DTO\\AdquisitionHistoryUpdateDTO.cs",
+              "RelativeDocumentMoniker": "AdresAPI\\DTO\\AdquisitionHistoryUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\DTO\\AdquisitionHistoryUpdateDTO.cs",
+              "RelativeToolTip": "AdresAPI\\DTO\\AdquisitionHistoryUpdateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T22:05:10.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdquisitionHistory.cs",
+              "DocumentMoniker": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\Adres.Domain\\Models\\AdquisitionHistory.cs",
+              "RelativeDocumentMoniker": "Adres.Domain\\Models\\AdquisitionHistory.cs",
+              "ToolTip": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\Adres.Domain\\Models\\AdquisitionHistory.cs",
+              "RelativeToolTip": "Adres.Domain\\Models\\AdquisitionHistory.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T22:01:15.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AssetServiceTypeService.cs",
+              "DocumentMoniker": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\Adres.Domain\\Services\\AssetServiceTypeService.cs",
+              "RelativeDocumentMoniker": "Adres.Domain\\Services\\AssetServiceTypeService.cs",
+              "ToolTip": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\Adres.Domain\\Services\\AssetServiceTypeService.cs",
+              "RelativeToolTip": "Adres.Domain\\Services\\AssetServiceTypeService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T21:48:38.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AssetServiceTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\Controllers\\AssetServiceTypeController.cs",
+              "RelativeDocumentMoniker": "AdresAPI\\Controllers\\AssetServiceTypeController.cs",
+              "ToolTip": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\Controllers\\AssetServiceTypeController.cs",
+              "RelativeToolTip": "AdresAPI\\Controllers\\AssetServiceTypeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAG4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T20:36:59.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAssetServiceTypeService.cs",
+              "DocumentMoniker": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\Adres.Domain\\Services\\IAssetServiceTypeService.cs",
+              "RelativeDocumentMoniker": "Adres.Domain\\Services\\IAssetServiceTypeService.cs",
+              "ToolTip": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\Adres.Domain\\Services\\IAssetServiceTypeService.cs",
+              "RelativeToolTip": "Adres.Domain\\Services\\IAssetServiceTypeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T21:48:26.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminUnitService.cs",
+              "DocumentMoniker": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\Adres.Domain\\Services\\AdminUnitService.cs",
+              "RelativeDocumentMoniker": "Adres.Domain\\Services\\AdminUnitService.cs",
+              "ToolTip": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\Adres.Domain\\Services\\AdminUnitService.cs",
+              "RelativeToolTip": "Adres.Domain\\Services\\AdminUnitService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T21:39:18.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProviderController.cs",
+              "DocumentMoniker": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\Controllers\\ProviderController.cs",
+              "RelativeDocumentMoniker": "AdresAPI\\Controllers\\ProviderController.cs",
+              "ToolTip": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\Controllers\\ProviderController.cs",
+              "RelativeToolTip": "AdresAPI\\Controllers\\ProviderController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAwGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T20:38:32.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProviderInputDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\DTO\\ProviderInputDTO.cs",
+              "RelativeDocumentMoniker": "AdresAPI\\DTO\\ProviderInputDTO.cs",
+              "ToolTip": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\DTO\\ProviderInputDTO.cs",
+              "RelativeToolTip": "AdresAPI\\DTO\\ProviderInputDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T20:47:06.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IProviderService.cs",
+              "DocumentMoniker": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\Adres.Domain\\Services\\IProviderService.cs",
+              "RelativeDocumentMoniker": "Adres.Domain\\Services\\IProviderService.cs",
+              "ToolTip": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\Adres.Domain\\Services\\IProviderService.cs",
+              "RelativeToolTip": "Adres.Domain\\Services\\IProviderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T21:11:05.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProviderResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\DTO\\ProviderResponseDTO.cs",
+              "RelativeDocumentMoniker": "AdresAPI\\DTO\\ProviderResponseDTO.cs",
+              "ToolTip": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\DTO\\ProviderResponseDTO.cs",
+              "RelativeToolTip": "AdresAPI\\DTO\\ProviderResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T21:15:16.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdquisitionController.cs",
+              "DocumentMoniker": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\Controllers\\AdquisitionController.cs",
+              "RelativeDocumentMoniker": "AdresAPI\\Controllers\\AdquisitionController.cs",
+              "ToolTip": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\Controllers\\AdquisitionController.cs",
+              "RelativeToolTip": "AdresAPI\\Controllers\\AdquisitionController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T18:34:52.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdquisitionUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\DTO\\AdquisitionUpdateDTO.cs",
+              "RelativeDocumentMoniker": "AdresAPI\\DTO\\AdquisitionUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\PSF30\\source\\repos\\AdresAPI\\AdresAPI\\DTO\\AdquisitionUpdateDTO.cs",
+              "RelativeToolTip": "AdresAPI\\DTO\\AdquisitionUpdateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T18:33:55.706Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 889,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

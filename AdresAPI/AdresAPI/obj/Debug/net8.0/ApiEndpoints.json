@@ -1,0 +1,372 @@
+[
+  {
+    "ContainingType": "AdresAPI.Controllers.AdminUnitController",
+    "Method": "GetAdminUnitByID",
+    "RelativePath": "api/AdminUnit/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.AdminUnitController",
+    "Method": "DeleteAdminUnit",
+    "RelativePath": "api/AdminUnit/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.AdminUnitController",
+    "Method": "CreateAdminUnit",
+    "RelativePath": "api/AdminUnit/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "adminUnitDTO",
+        "Type": "AdresAPI.DTO.AdminUnitInputDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.AdminUnitController",
+    "Method": "GetAllAdminUnits",
+    "RelativePath": "api/AdminUnit/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.AdminUnitController",
+    "Method": "UpdateAdminUnit",
+    "RelativePath": "api/AdminUnit/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "adminUnitDTO",
+        "Type": "AdresAPI.DTO.AdminUnitResponseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.AdquisitionController",
+    "Method": "GetAdquisitionByID",
+    "RelativePath": "api/Adquisition/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.AdquisitionController",
+    "Method": "DeleteAdquisition",
+    "RelativePath": "api/Adquisition/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.AdquisitionController",
+    "Method": "CreateAdquisition",
+    "RelativePath": "api/Adquisition/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "adquisitionDTO",
+        "Type": "AdresAPI.DTO.AdquisitionInputDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.AdquisitionController",
+    "Method": "GetAllAdquisition",
+    "RelativePath": "api/Adquisition/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.AdquisitionController",
+    "Method": "UpdateOrder",
+    "RelativePath": "api/Adquisition/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "adquisitionDto",
+        "Type": "AdresAPI.DTO.AdquisitionUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.AdquisitionHistoryController",
+    "Method": "GetAdquisitionHistoryByID",
+    "RelativePath": "api/AdquisitionHistory/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.AdquisitionHistoryController",
+    "Method": "DeleteAdquisitionHistory",
+    "RelativePath": "api/AdquisitionHistory/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.AdquisitionHistoryController",
+    "Method": "CreateAdquisitionHistory",
+    "RelativePath": "api/AdquisitionHistory/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "historyDTO",
+        "Type": "AdresAPI.DTO.AdquisitionHistoryInputDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.AdquisitionHistoryController",
+    "Method": "GetAllAdquisitionHistories",
+    "RelativePath": "api/AdquisitionHistory/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.AdquisitionHistoryController",
+    "Method": "UpdateAdquisitionHistory",
+    "RelativePath": "api/AdquisitionHistory/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "historyDTO",
+        "Type": "AdresAPI.DTO.AdquisitionHistoryUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.AssetServiceTypeController",
+    "Method": "GetAssetServiceTypeByID",
+    "RelativePath": "api/AssetServiceType/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.AssetServiceTypeController",
+    "Method": "DeleteAssetServiceType",
+    "RelativePath": "api/AssetServiceType/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.AssetServiceTypeController",
+    "Method": "CreateAssetServiceType",
+    "RelativePath": "api/AssetServiceType/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assetTypeDTO",
+        "Type": "AdresAPI.DTO.AssetServiceTypeInputDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.AssetServiceTypeController",
+    "Method": "GetAllAssetServiceTypes",
+    "RelativePath": "api/AssetServiceType/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.AssetServiceTypeController",
+    "Method": "UpdateAssetServiceType",
+    "RelativePath": "api/AssetServiceType/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assetTypeDTO",
+        "Type": "AdresAPI.DTO.AssetServiceTypeResponseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.ProviderController",
+    "Method": "GetProviderByID",
+    "RelativePath": "api/Provider/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.ProviderController",
+    "Method": "DeleteProvider",
+    "RelativePath": "api/Provider/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.ProviderController",
+    "Method": "CreateProvider",
+    "RelativePath": "api/Provider/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "providerDTO",
+        "Type": "AdresAPI.DTO.ProviderInputDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.ProviderController",
+    "Method": "GetAllProviders",
+    "RelativePath": "api/Provider/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdresAPI.Controllers.ProviderController",
+    "Method": "UpdateProvider",
+    "RelativePath": "api/Provider/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "providerDTO",
+        "Type": "AdresAPI.DTO.ProviderResponseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

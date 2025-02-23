@@ -1,0 +1,14 @@
+C:\Users\PSF30\source\repos\AdresAPI\Adres.Domain\bin\Debug\net8.0\Adres.Domain.deps.json
+C:\Users\PSF30\source\repos\AdresAPI\Adres.Domain\bin\Debug\net8.0\Adres.Domain.runtimeconfig.json
+C:\Users\PSF30\source\repos\AdresAPI\Adres.Domain\bin\Debug\net8.0\Adres.Domain.dll
+C:\Users\PSF30\source\repos\AdresAPI\Adres.Domain\bin\Debug\net8.0\Adres.Domain.pdb
+C:\Users\PSF30\source\repos\AdresAPI\Adres.Domain\obj\Debug\net8.0\Adres.Domain.csproj.AssemblyReference.cache
+C:\Users\PSF30\source\repos\AdresAPI\Adres.Domain\obj\Debug\net8.0\Adres.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PSF30\source\repos\AdresAPI\Adres.Domain\obj\Debug\net8.0\Adres.Domain.AssemblyInfoInputs.cache
+C:\Users\PSF30\source\repos\AdresAPI\Adres.Domain\obj\Debug\net8.0\Adres.Domain.AssemblyInfo.cs
+C:\Users\PSF30\source\repos\AdresAPI\Adres.Domain\obj\Debug\net8.0\Adres.Domain.csproj.CoreCompileInputs.cache
+C:\Users\PSF30\source\repos\AdresAPI\Adres.Domain\obj\Debug\net8.0\Adres.Domain.dll
+C:\Users\PSF30\source\repos\AdresAPI\Adres.Domain\obj\Debug\net8.0\refint\Adres.Domain.dll
+C:\Users\PSF30\source\repos\AdresAPI\Adres.Domain\obj\Debug\net8.0\Adres.Domain.pdb
+C:\Users\PSF30\source\repos\AdresAPI\Adres.Domain\obj\Debug\net8.0\Adres.Domain.genruntimeconfig.cache
+C:\Users\PSF30\source\repos\AdresAPI\Adres.Domain\obj\Debug\net8.0\ref\Adres.Domain.dll
