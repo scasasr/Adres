@@ -41,6 +41,7 @@ export class HomeComponent {
     sortable: true,
     filter: true,
     resizable: true
+
   };
 
   rowData: any[] = [];
@@ -73,7 +74,7 @@ export class HomeComponent {
     { title: 'Unidades', icon: 'https://www.adres.gov.co/Links de acceso/ico-porCiudadano.svg', endpoint: 'AdminUnit/GetAll' },
     { title: 'Proveedores', icon: 'https://www.adres.gov.co/Links de acceso/ico-tramLinea.svg', endpoint: 'Provider/GetAll' },
     { title: 'Bienes/Servicios', icon: 'https://www.adres.gov.co/Links de acceso/ico-pur.svg', endpoint: 'AssetServiceType/GetAll' },
-    { title: 'Historial', icon: 'https://www.adres.gov.co/Links de acceso/ico-lup.svg', endpoint: 'api/AdquisitionHistory/GetAll' }
+    { title: 'Historial', icon: 'https://www.adres.gov.co/Links de acceso/ico-lup.svg', endpoint: 'AdquisitionHistory/GetAll' }
   ];
 
   selectCard(index: number) {
@@ -104,6 +105,12 @@ export class HomeComponent {
         this.fetchDropdownData();
 
         this.colDefs = [
+          {
+            headerName: 'Acciones',
+            cellRenderer: this.createDeleteButton.bind(this), 
+            filter: false, 
+            editable: false
+          },
           { field: 'adquisitionID', headerName: 'ID', filter: true, editable:false },
           { field: 'adminUnitID', headerName: 'Admin Unit', filter: true, editable:true },
           { field: 'assetServiceTypeID', headerName: 'Asset Type', filter: true, editable:true },
@@ -111,11 +118,18 @@ export class HomeComponent {
           { field: 'budget', headerName: 'Budget', filter: true, editable:true },
           { field: 'quantity', headerName: 'Quantity', filter: true, editable:true },
           { field: 'unitPrice', headerName: 'Unit Price', filter: true, editable:true },
-          { field: 'totalPrice', headerName: 'Total Price', filter: true, editable:true }
+          { field: 'totalPrice', headerName: 'Total Price', filter: true, editable:true },
+         
         ];
         break;
       case 'Unidades':
         this.colDefs = [
+          {
+            headerName: 'Acciones',
+            cellRenderer: this.createDeleteButton.bind(this), 
+            filter: false, 
+            editable: false
+          },
           { field: 'adminUnitID', headerName: 'ID', filter: true, editable:false },
           { field: 'name', headerName: 'Nombre unidad', filter: true, editable:true },
           { field: 'referenceCode', headerName: 'Codigo de referencia', filter: true, editable:true }
@@ -123,6 +137,12 @@ export class HomeComponent {
         break;
       case 'Proveedores':
         this.colDefs = [
+          {
+            headerName: 'Acciones',
+            cellRenderer: this.createDeleteButton.bind(this), 
+            filter: false, 
+            editable: false
+          },
           { field: 'providerID', headerName: 'ID', filter: true, editable:false },
           { field: 'name', headerName: 'Nombre proveedor', filter: true, editable:true },
           { field: 'referenceCode', headerName: 'Codigo de referencia', filter: true, editable:true }
@@ -130,6 +150,12 @@ export class HomeComponent {
         break;
       case 'Bienes/Servicios':
         this.colDefs = [
+          {
+            headerName: 'Acciones',
+            cellRenderer: this.createDeleteButton.bind(this), 
+            filter: false, 
+            editable: false
+          },
           { field: 'assetServiceTypeID', headerName: 'ID', filter: true, editable:false },
           { field: 'name', headerName: 'Nombre Bien/Servicio', filter: true, editable:true },
           { field: 'referenceCode', headerName: 'Codigo de referencia', filter: true, editable:true }
@@ -204,6 +230,23 @@ export class HomeComponent {
         if (this.selectedCardIndex !== null) {
           this.selectCard(this.selectedCardIndex);
         }
+
+        if(this.selectedCardIndex === 0){
+          const dataHistory = {
+            adquisitionID: response.adquisitionID,  
+            operation: "created",                   
+            timeStamp: new Date(),                  
+            model: JSON.stringify(response)         
+          };
+          this.apiService.postData('AdquisitionHistory/Add', dataHistory).subscribe({
+            next: (res) => {
+              console.log("Historial guardado:", res);
+            },
+            error: (err) => {
+              console.error("Error guardando historial:", err);
+            }
+          });
+        }
       },
       error: (err) => {
         console.error("Error al guardar:", err);
@@ -231,17 +274,84 @@ export class HomeComponent {
     const updatedData = event.data;
     console.log('Celda editada:', updatedData);
   
-    // // Enviar la actualización al backend
-    // this.apiService.updateData(this.selectedEntity, updatedData).subscribe({
-    //   next: () => {
-    //     console.log('Datos actualizados correctamente.');
-    //     alert('Registro actualizado correctamente.');
-    //     this.refreshTable();
-    //   },
-    //   error: (error) => {
-    //     console.error('Error al actualizar datos:', error);
-    //     alert('Error al actualizar el registro.');
-    //   }
-    // });
+
+    this.apiService.updateData(this.selectedEntity, updatedData).subscribe({
+      next: () => {
+        console.log('Datos actualizados correctamente.');
+        alert('Registro actualizado correctamente.');
+      },
+      error: (error) => {
+        console.error('Error al actualizar datos:', error);
+        alert('Error al actualizar el registro.');
+      }
+    });
+    
   }
+
+  createDeleteButton(params: any) {
+
+    const container = document.createElement('div');
+
+    const button = document.createElement('button');
+    button.style.backgroundColor = 'transparent';
+    button.style.color = '#e74c3c';
+    button.style.border = 'none';
+    button.style.cursor = 'pointer';
+  
+
+    const icon = document.createElement('i');
+    icon.className = 'fa fa-trash';  
+    icon.style.fontSize = '18px';
+
+    button.appendChild(icon);
+
+    button.addEventListener('click', () => {
+      this.onDeleteRow(params.data);
+    });
+  
+    container.appendChild(button);
+    return container; 
+  }
+
+  onDeleteRow(rowData: any) {
+    if (!confirm('¿Deseas eliminar este registro?')) {
+      return;
+    }
+  
+    let endpoint = '';
+    switch (this.selectedEntity) {
+      case 'Adquisiciones':
+        endpoint = `Adquisition/${rowData.adquisitionID}`;
+        break;
+      case 'Unidades':
+        endpoint = `AdminUnit/${rowData.adminUnitID}`;
+        break;
+      case 'Proveedores':
+        endpoint = `Provider/${rowData.providerID}`;
+        break;
+      case 'Bienes/Servicios':
+        endpoint = `AssetServiceType/${rowData.assetServiceTypeID}`;
+        break;
+      default:
+        console.warn('Entidad no soportada para borrado:', this.selectedEntity);
+        return;
+    }
+  
+    this.apiService.deleteData(endpoint).subscribe({
+      next: (res) => {
+        console.log('Registro eliminado:', res);
+        alert('El registro ha sido eliminado correctamente.');
+        
+        if (this.selectedCardIndex !== null) {
+          this.selectCard(this.selectedCardIndex);
+          window.location.reload();
+        }
+      },
+      error: (err) => {
+        console.error('Error al eliminar:', err);
+        alert('Ocurrió un error al eliminar el registro.');
+      }
+    });
+  }
+  
 }

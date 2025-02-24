@@ -23,7 +23,7 @@ export class ApiServiceAdquisition {
     return this.http.put(`${this.apiUrl}/${endpoint}`, body);
   }
 
-  deleteData(endpoint: string, id: number): Observable<any> {
-    return this.http.delete(`${this.apiUrl}/${endpoint}/${id}`);
+  deleteData(endpoint: string): Observable<any> {
+    return this.http.delete(`${this.apiUrl}/${endpoint}`);
   }
 }
