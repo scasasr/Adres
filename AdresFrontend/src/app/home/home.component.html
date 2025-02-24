@@ -37,7 +37,10 @@
     </ag-grid-angular>
   </div> -->
   <div class="table-container">
-    <button *ngIf="selectedCardIndex !== null" class="add-button" (click)="openModal()">
+    <button 
+      *ngIf="selectedCardIndex !== null && selectedEntity !== 'Historial'" 
+      class="add-button" 
+      (click)="openModal()">
       Agregar {{ selectedCardIndex !== null ? cards[selectedCardIndex].title : '' }}
     </button>
 
@@ -47,17 +50,110 @@
       [rowData]="rowData"
       [columnDefs]="colDefs"
       [defaultColDef]="defaultColDef"
+      [singleClickEdit]="true"
       rowSelection="single"
+      (rowClicked)="onRowClicked($event)"
+      (cellValueChanged)="onCellValueChanged($event)"
     >
     </ag-grid-angular>
   </div>
 
   <div class="modal" *ngIf="showModal">
     <div class="modal-content">
-      <span class="close" (click)="closeModal()">&times;</span>
-      <h2>Agregar</h2>
-      <p>Aquí puedes agregar un nuevo registro para</p>
-      <button (click)="closeModal()">Cerrar</button>
+      <button class="close" (click)="closeModal()">&times;</button>
+      <h2>Agregar {{ selectedCardIndex !== null ? cards[selectedCardIndex].title : '' }}</h2>
+      
+      <form *ngIf="selectedEntity === 'Adquisiciones'" [formGroup]="entityForm">
+        <div class="form-group">
+          <label>Unidad Administrativa</label>
+          <select formControlName="adminUnitID" class="custom-select">
+            <option value="" disabled >Seleccione...</option>
+            <option *ngFor="let unit of adminUnits" [value]="unit.adminUnitID">{{ unit.name }}</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label>Tipo de Bien/Servicio</label>
+          <select formControlName="assetServiceTypeID" class="custom-select">
+            <option ngValue="" disabled >Seleccione...</option>
+            <option *ngFor="let type of assetServiceTypes" [value]="type.assetServiceTypeID">{{ type.name }}</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label>Proveedor</label>
+          <select formControlName="providerID" class="custom-select">
+            <option value="" disabled>Seleccione...</option>
+            <option *ngFor="let provider of providers" [value]="provider.providerID">{{ provider.name }}</option>
+          </select>
+        </div>
+      
+        <div class="form-group">
+          <label>Presupuesto</label>
+          <input type="number" formControlName="budget" />
+        </div>
+      
+        <div class="form-group">
+          <label>Cantidad</label>
+          <input type="number" formControlName="quantity" />
+        </div>
+      
+        <div class="form-group">
+          <label>Precio Unitario</label>
+          <input type="number" formControlName="unitPrice" />
+        </div>
+      
+        <div class="form-group">
+          <label>Precio Total</label>
+          <input type="number" formControlName="totalPrice" [disabled]="true" />
+        </div>
+      
+        <div class="form-group">
+          <label>Documentación</label>
+          <textarea formControlName="documentation"></textarea>
+        </div>
+      
+        <!-- Ajuste del Checkbox -->
+        <div class="form-group checkbox-group">
+          <label class="checkbox-label">
+            <input type="checkbox" formControlName="isActive" />
+            Activo
+          </label>
+        </div>
+      
+        <div class="button-container">
+          <button type="button" class="btn btn-secondary" (click)="closeModal()">Cancelar</button>
+          <button type="button" class="btn btn-primary" (click)="submitForm()" [disabled]="entityForm.invalid">
+            Guardar
+          </button>
+        </div>
+      </form>
+
+      <!-- Formulario por defecto para otras entidades -->
+      <form *ngIf="selectedEntity !== 'Adquisiciones'" [formGroup]="entityForm">
+        <div class="form-group">
+          <label>Nombre</label>
+          <input type="text" formControlName="name" />
+          <small *ngIf="entityForm.get('name')?.invalid && entityForm.get('name')?.touched">
+            * Nombre es obligatorio.
+          </small>
+        </div>
+
+        <div class="form-group">
+          <label>Código de Referencia</label>
+          <input type="text" formControlName="referenceCode" />
+          <small *ngIf="entityForm.get('referenceCode')?.invalid && entityForm.get('referenceCode')?.touched">
+            * Código es obligatorio.
+          </small>
+        </div>
+
+        <div class="button-container">
+          <button type="button" class="btn btn-secondary" (click)="closeModal()">Cancelar</button>
+          <button type="button" class="btn btn-primary" (click)="submitForm()" [disabled]="entityForm.invalid">
+            Guardar
+          </button>
+        </div>
+      </form>
     </div>
   </div>
 </div>
